@@ -237,9 +237,10 @@ if st.button('Show Estimations'):
     col14, col15 = st.beta_columns(2)
     col14.pyplot(fig4)
     col15.pyplot(fig5)
-
-    col16, col17 = st.beta_columns(2)
-    col16.pyplot(fig2)
+    
+    if not WithdrawlYears.empty:
+        col16, col17 = st.beta_columns(2)
+        col16.pyplot(fig2)
 
 
 
