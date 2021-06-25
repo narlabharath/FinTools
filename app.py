@@ -234,12 +234,12 @@ if st.button('Show Estimations'):
         col12.pyplot(fig1)
         col13.pyplot(fig3)
 
-    col13, col14 = st.beta_columns(2)
-    col13.pyplot(fig4)
-    col14.pyplot(fig5)
+    col14, col15 = st.beta_columns(2)
+    col14.pyplot(fig4)
+    col15.pyplot(fig5)
 
-    col15, col16 = st.beta_columns(2)
-    col13.pyplot(fig2)
+    col16, col17 = st.beta_columns(2)
+    col16.pyplot(fig2)
 
 
 
